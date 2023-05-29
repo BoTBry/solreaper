@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&family=Rock+Salt&display=swap');
+*{
+    margin: 0 auto;
+    max-width: 1600px;
+}
+#content{
+    max-width: 1600px;
+    text-align: center;
+    background-color: black;
+}
+header{
+    overflow: hidden;
+}
+section{
+    color: #fff;
+}
+#header{
+    display: flex;
+    flex-direction: column;
+}
+.navbar-nav li a{
+    float: right;
+    color: #fff!important;
+}
+.navbar-brand img{
+    width: 60px;
+    margin-left: 10px;
+    
+}
+.navbar-toggler{
+    border: none!important;
+    outline: none!important;
+}
+nav .fa-bars{
+    color: #fff;
+    font-size: 5px;
+}
+.welcome h5{
+    font-size: small;
+    color: aliceblue;
+}
+main{
+    background-color: black;
+}
+body{
+    background-color: rgb(2, 2, 2);
+    margin: 0 auto;
+}
+.home-flex{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 20px;
+}
+.Back-top_img{
+    width: 100%;
+    height: 100%;
+    opacity: 0
+}
+.logo{
+    max-height: 50%;
+    max-width: 50%;
+    z-index: 1;
+}
+body{
+    box-sizing: border-box;
+}
+.background{
+    
+    width: 80%;
+    margin: 0 auto;
+    background-color:rgb(255, 255, 255);
+    line-height: 1.5em;
+    padding: 20px;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 5px 5px 10px #6f7364;
+    justify-content: center;
+    flex-shrink: 0;
+
+}
+h1 {
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    color: rgb(150, 147, 144);
+    font-size: 1.3em;
+}
+h2{
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+}
+.DISCLAIMER h3{
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    color: aliceblue;
+    text-shadow: 5px 5px 10px #6f7364;
+    font-size: 1em;
+}
+.DISCLAIMER p{
+    font-family: 'Bradley Hand', sans-serif;
+    color: aliceblue;
+}
+p{
+    font-family: 'Bradley Hand', sans-serif;
+}
+.bubbles img{
+    width: 50px;
+    animation: bubbles 7s linear infinite;
+}
+.bubbles{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    bottom: -70px;
+}
+.about_background{
+    background-color: rgb(37, 37, 36);
+    width: 80%;
+    line-height: 1.5em;
+    padding: 20px;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 5px 5px 10px #6f7364;
+    justify-content: center;
+    align-self: center;
+    flex-shrink: 0;
+
+}
+@keyframes bubbles{
+    0%{
+        transform: translateY(0);
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    70%{
+        opacity: 1;
+    }
+    100%{
+        transform: translateY(-80vh);
+        opacity: 0;
+    }
+}
+.bubbles img:nth-child(1){
+    animation-delay: 2s;
+    width: 25px;
+    border-radius: 5px;
+}
+.bubbles img:nth-child(2){
+    animation-delay: 1s;
+    border-radius: 5px;
+}
+.bubbles img:nth-child(3){
+    animation-delay: 3s;
+    width: 25px;
+    border-radius: 5px;
+}
+.bubbles img:nth-child(4){
+    animation-delay: 4.5s;
+    border-radius: 5px;
+}
+.bubbles img:nth-child(5){
+    animation-delay: 3s;
+    border-radius: 5px;
+}
+.bubbles img:nth-child(6){
+    animation-delay: 6s;
+    width: 20px;
+    border-radius: 5px;
+}
+.bubbles img:nth-child(7){
+    animation-delay: 7s;
+    width: 35px;
+    border-radius: 5px;
+}
+.ash_line{
+    width: 90%;
+    background-color: #818181;
+    height: 2px;
+    justify-content: center;
+    align-self: center;
+    flex-shrink: 0;
+    flex-grow: 1;
+    margin: auto;
+
+}
+.sol{
+    color: rgb(128, 122, 122);
+}
+h2{
+    color: aliceblue;
+    text-shadow: 5px 5px 10px #6f7364;
+}
+hr{
+    width: 100%;
+}
+h1{
+    color: aliceblue;
+    text-shadow: 5px 5px 10px #6f7364;
+    
+}
+article{
+    color: rgb(0, 0, 0);
+}
+.intro{
+    color: aliceblue;
+    text-align: center;
+    font-size: 1.1em;
+}
+.ABOUT-US{
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+    margin: auto;
+
+}
+.roadmap{
+    color: aliceblue;
+    margin: auto;
+}
+.slide-container{
+    width: 100%;
+    height: 100vh;
+}
+.swiper{
+    width: 80%;
+    height: fit-content;
+}
+.swiper-slide img{
+    width: 100%;
+}
+.swiper .swiper-button-prev{
+    color: white;
+}
+.swiper .swiper-button-next{
+    color: white;
+}
+.swiper .swiper-pagination-bullet-active{
+    background: white;
+}
+.team_background{
+    
+    margin: 0 auto;
+    background-color: rgb(207, 206, 206);
+    width: 80%;
+    line-height: 1.5em;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 5px 5px 10px #6f7364;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.team-flex{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+    gap: 40px;
+
+}
+.team-img{
+    width: 30%;
+    max-width: 400px;
+    border-radius: 300px;
+}
+#accordion-font{
+    margin: 0 auto;
+    width: 80%;
+    color: white;
+}
+#accordion-font li{
+    border: #ffffff solid 2px;
+    list-style: none;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    background: none;
+    border-radius: 4px;
+}
+#accordion-font li label{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    color: white;
+}
+#accordion-font li label span{
+    transform: rotate(90deg);
+    font-size: 22px;
+    color: white;
+}
+#accordion-font label + input[type='radio']{
+    display: none;
+}
+#accordion-font .accordion-content{
+    padding: 0 10px;
+    line-height: 26px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s;
+}
+#accordion-font label + input[type='radio']:checked + .accordion-content{
+    max-height: 400px;
+}
+#accordion-font p{
+    text-align: left;
+}
+footer{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer a{
+    text-decoration: none;
+}
+#footer{
+    background-color: black;
+}
+#social-img{
+    width: 30px;
+    height: 30px;
+}
+footer.social img{
+    padding-top: 15px;
+}
+@media only screen and (max-width: 900px)  {
+    
+    #img-grid{
+        display: block;
+        height: auto;
+    }
+    .logo{
+        width: 70%;
+        max-height: 50%;
+        max-width: 50%;
+        margin-left: 10px;
+    }
+    footer {
+        margin-top: 25px;
+    }
+    footer {
+        flex-direction: column;
+    }
+    .background{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .accordion-section{
+        margin-left: -10px;
+    }
+    .li{
+        margin-left: -15px;
+    }
+}
